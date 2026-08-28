@@ -48,27 +48,7 @@ Software Engineering Student · Web Developer · Content Creator
   <img src="https://img.shields.io/badge/-Grafana-000000?style=flat-square&logo=grafana&logoColor=white" alt=""/>
 </p>
 
----
-
-### Featured Projects
-| Project | Tech Stack | Description | Links |
-|---|---|---|---|
-| **College-Event-Website** | `HTML` `CSS` `JS` `Jenkins` `Docker` `Kubernetes` | Static corporate/college site deployed through a full CI/CD pipeline with Nagios, Graphite, and Grafana monitoring | [GitHub](https://github.com/darkish7/College-Event-Website) |
-| **TechNova 2026** | `HTML` `CSS` `JS` | 9-page static website for a college technical symposium, built with a glassmorphism design aesthetic | — |
-| **oss-audit-24BCY10180** | `Shell` | Open-source audit coursework project | [GitHub](https://github.com/darkish7/oss-audit-24BCY10180) |
-
----
-
-### GitHub Metrics
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=darkish7&rank_icon=github&show_icons=true&include_all_commits=true&theme=midnight-purple&hide_border=true" alt="GitHub Stats" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=darkish7&layout=compact&langs_count=8&theme=midnight-purple&hide_border=true" alt="Top Languages" width="38%"/>
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=darkish7&theme=midnight-purple&hide_border=true" alt="GitHub Streak"/>
-</p>
-
-> These are the official `github-readme-stats` / `github-readme-streak-stats` endpoints — same badges, actively maintained repos instead of the random Vercel forks that go down. If the shared instance ever gets rate-limited (common — too many people hitting one server), self-host it in 5 min: fork the repo, deploy to your own Vercel account free tier, swap the domain in the URL.
+---> These are the official `github-readme-stats` / `github-readme-streak-stats` endpoints — same badges, actively maintained repos instead of the random Vercel forks that go down. If the shared instance ever gets rate-limited (common — too many people hitting one server), self-host it in 5 min: fork the repo, deploy to your own Vercel account free tier, swap the domain in the URL.
 
 ---
 
