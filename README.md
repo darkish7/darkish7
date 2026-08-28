@@ -77,38 +77,6 @@ Software Engineering Student · Web Developer · Content Creator
   <img src="https://raw.githubusercontent.com/darkish7/darkish7/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
 </p>
 
-> This one needs a **one-time setup** — it's not a hosted API, it's a GitHub Action that runs on your own repo, so it never breaks:
-> 1. In your profile repo (`darkish7/darkish7`), create `.github/workflows/snake.yml`
-> 2. Paste the workflow below, commit, push
-> 3. It auto-generates the SVG and commits it to an `output` branch daily
-
-```yaml
-name: Generate Snake
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-  push:
-    branches: [ main ]
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: darkish7
-          outputs: dist/github-contribution-grid-snake.svg
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
----
-
 ### Contribution Graph
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=darkish7&theme=react-dark&hide_border=true&bg_color=0d1117" alt="Contribution Graph" width="100%"/>
